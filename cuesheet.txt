@@ -1,7 +1,3 @@
-title: BTI - Mockups Set #6 for Design Approval
-bti-home-1.jpg	bti-background-1.jpg
-bti-sub1-view-product.jpg	bti-background-view-product.jpg
-bti-sub1-view-product2.jpg	bti-background-view-product2.jpg
-bti-sub3-industry.jpg	bti-background-3.jpg
-bti-sub2-product.jpg	bti-background-product.jpg
-bti-sub4-generic-rev-sidebar.jpg	bti-background-6.jpg
+title: CLIENT NAME - Mockups Set #1 for Design Approval
+image.jpg
+image2.jpg
