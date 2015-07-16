@@ -1,0 +1,111 @@
+/*
+	screen_all.css
+	Core CSS for on-screen display
+	
+	see screen_ie6.css for MSIE 6 and earlier browsers.
+	see screen_ie7.css for MSIE 7.
+*/
+
+/* body and #pic should be the only declarations that need editing. */
+body {
+	padding:20px 0 0;
+	margin:0;
+	font-size:10px;
+	font-family:Verdana,Helvetica,Arial,'sans-serif';
+	background:#bfbfbf;
+	background-color:#bfbfbf;
+	background-repeat:repeat-x;
+	background-position:0 20px;
+	text-align:center;
+	color:#fff;
+	}
+#pic { /* This is the image being displayed. */
+	
+	}
+div {
+	position:relative;
+	margin:0;
+	padding:0;
+	}
+img { border:0; }
+a,.pseudolink {
+	color:#006;
+	text-decoration:none;
+	}
+a:visited {
+	color:#006;
+	text-decoration:none;
+	}
+a:hover,.pseudolink:hover {
+	color:#00f;
+	text-decoration:underline;
+	}
+a:active,.pseudolink:active {
+	color:#696;
+	}
+.pseudolink { cursor:pointer; }
+/* Control bar */
+#controlbar {
+	position:fixed;
+	top:0px;
+	left:0;
+	width:100%;
+	height:17px;
+	padding:3px 0 0;
+	overflow:none;
+	background:#898989;
+	color:#CCC;
+	text-align:center;
+	z-index:2;
+	border-bottom:solid #404040 1px;
+	}
+#titlebar {
+	font-weight:bold;
+	}
+.pagelink {
+	padding:0 .2em;
+	border:solid 1px #898989;
+	}
+#index {
+	margin-left:1em;
+	}
+.pagelink.pseudolink.thispage {
+	color:#fff;
+	border:solid 1px #fff;
+	text-decoration:none;
+	}
+#prev,#next {
+	position:absolute;
+	top:3px;
+	font-weight:bold;
+	}
+#prev {
+	left:5px;
+	}
+#next {
+	right:5px;
+	}
+
+
+
+/* general exemptions */
+.small { font-size:0.8em; }
+.spoken { display:none; }
+* .nofloat { float:none; }
+* .clearall {
+	clear:both;
+	float:none;
+	display:block;
+	}
+* .ca {
+	clear:both;
+	float:none;
+	font-size:0.1px;
+	line-height:0.1px;
+	display:block;
+	width:1px;
+	margin-left:-1px;
+	overflow:hidden;
+	}
+
+/* EOF */
