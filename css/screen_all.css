@@ -1,7 +1,7 @@
 /*
 	screen_all.css
 	Core CSS for on-screen display
-	
+
 	see screen_ie6.css for MSIE 6 and earlier browsers.
 	see screen_ie7.css for MSIE 7.
 */
@@ -11,16 +11,14 @@ body {
 	padding:20px 0 0;
 	margin:0;
 	font-size:10px;
-	font-family:Verdana,Helvetica,Arial,'sans-serif';
+	font-family:'Open Sans',Helvetica,Arial,'sans-serif';
 	background:#bfbfbf;
-	background-color:#bfbfbf;
-	background-repeat:repeat-x;
 	background-position:0 20px;
 	text-align:center;
 	color:#fff;
 	}
 #pic { /* This is the image being displayed. */
-	
+
 	}
 div {
 	position:relative;
@@ -29,15 +27,11 @@ div {
 	}
 img { border:0; }
 a,.pseudolink {
-	color:#006;
-	text-decoration:none;
-	}
-a:visited {
-	color:#006;
+	color: #ddd;
 	text-decoration:none;
 	}
 a:hover,.pseudolink:hover {
-	color:#00f;
+	color:#ddd;
 	text-decoration:underline;
 	}
 a:active,.pseudolink:active {
@@ -53,7 +47,7 @@ a:active,.pseudolink:active {
 	height:17px;
 	padding:3px 0 0;
 	overflow:none;
-	background:#898989;
+	background:#444;
 	color:#CCC;
 	text-align:center;
 	z-index:2;
@@ -63,16 +57,14 @@ a:active,.pseudolink:active {
 	font-weight:bold;
 	}
 .pagelink {
-	padding:0 .2em;
-	border:solid 1px #898989;
+	padding:0 5px;
 	}
 #index {
 	margin-left:1em;
 	}
 .pagelink.pseudolink.thispage {
-	color:#fff;
-	border:solid 1px #fff;
-	text-decoration:none;
+	color:tomato;
+	text-decoration:underline;
 	}
 #prev,#next {
 	position:absolute;
